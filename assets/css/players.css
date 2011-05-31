@@ -1,0 +1,49 @@
+/* CSS Document */
+
+.player {
+	background-image: url("../images/players.png"); 
+	/*background-attachment:fixed;*/
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	z-index: 999; 
+	height: 30px; 
+	width: 24px;
+}
+
+.player1_n_right {
+	background-position: 0px 0px;
+}
+.player1_n_stand {
+	background-position: -24px 0px;
+}
+.player1_n_left {
+	background-position: -48px 0px;
+}
+.player1_e_right {
+	background-position: 0px -32px;
+}
+.player1_e_stand {
+	background-position: -24px -32px;
+}
+.player1_e_left {
+	background-position: -48px -32px;
+}
+.player1_s_right {
+	background-position: 0px -64px;
+}
+.player1_s_stand {
+	background-position: -24px -64px;
+}
+.player1_s_left {
+	background-position: -48px -64px;
+}
+.player1_w_right {
+	background-position: 0px -96px;
+}
+.player1_w_stand {
+	background-position: -24px -96px;
+}
+.player1_w_left {
+	background-position: -48px -96px;
+}

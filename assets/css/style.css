@@ -1,0 +1,23 @@
+/* CSS Document */
+.cell {
+	position: absolute;
+	z-index: -1;
+	width: 1000px;
+	height: 1000px;
+	background-color: #03F;
+	border: 1px solid red;
+	top: 0px;
+	left: 0px;
+}
+.subcell {
+	position: absolute;
+	z-index: 0;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	top: 0px;
+	left: 0px;
+}
+canvas {
+	display: none;
+}
